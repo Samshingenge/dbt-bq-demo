@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: food_tech_raw_data
+    # Add your BigQuery project and dataset info here if not in profiles.yml
+    # project: your_gcp_project_id
+    dataset: food_tech_analytics 
+    tables:
+      - name: customers
+      - name: products
+      - name: orders
